@@ -85,14 +85,24 @@ WSGI_APPLICATION = 'django_courses.wsgi.application'
 #     }
 # }
 #
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'course',
+#         'USER': 'itvdn',
+#         'PASSWORD': 'itvdn',
+#         'HOST': '127.0.0.1',
+#         'PORT': '5433'
+#     }
+# }
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'course',
-        'USER': 'itvdn',
-        'PASSWORD': 'itvdn',
-        'HOST': '127.0.0.1',
-        'PORT': '5433'
+        'NAME': 'd8d42qau0amjnq',
+        'USER': 'dukpuybanebthi',
+        'PASSWORD': '36a82233e0cf6edd025375de7ead2bafaef330353c5ae813c3272a143c2645b9',
+        'HOST': 'ec2-79-125-26-232.eu-west-1.compute.amazonaws.com',
+        'PORT': '5432'
     }
 }
 
